@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="https://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://christinechagas.github.io/kb-crawl-fixture/</loc>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://christinechagas.github.io/kb-crawl-fixture/index.html</loc>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://christinechagas.github.io/kb-crawl-fixture/attrfacts.html</loc>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://christinechagas.github.io/kb-crawl-fixture/specsheet.pdf</loc>
+    <changefreq>monthly</changefreq>
+  </url>
+</urlset>

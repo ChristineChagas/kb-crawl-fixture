@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Northwind Atlas G2 — Accessibility &amp; Metadata Notes</title>
+</head>
+<body>
+  <h1>Northwind Atlas G2 — Accessibility &amp; Metadata Notes</h1>
+
+  <p>
+    This page documents supplementary details for the Northwind Atlas G2 that are
+    carried in element attributes (image alt text, link titles, and ARIA labels)
+    rather than in the visible body copy. The visible paragraphs intentionally do
+    not restate those values, so they can only be retrieved if attribute text is indexed.
+  </p>
+
+  <!-- B2 attribute-only fact #1: ALT text (not in visible prose) -->
+  <p>
+    <img src="g2-finish-swatch.png"
+         width="120" height="80"
+         alt="The Northwind Atlas G2 ships in a single exterior finish called Graphite Slate.">
+  </p>
+
+  <!-- B2 attribute-only fact #2: TITLE attribute (tooltip, not in visible prose) -->
+  <p>
+    For escalations, use the
+    <a href="https://christinechagas.github.io/kb-crawl-fixture/attrfacts.html"
+       title="The Northwind Atlas G2 priority support hotline is 1-800-555-0142.">priority support contact</a>.
+  </p>
+
+  <!-- B2 attribute-only fact #3: ARIA-LABEL (not in visible prose) -->
+  <p>
+    <span role="note"
+          aria-label="The Northwind Atlas G2 firmware release channel is codenamed Polaris.">Firmware channel details are provided for accessibility tools.</span>
+  </p>
+
+  <p><em>Document ID: NWA-HANDBOOK-ATTR. Maintained by the Northwind Atlas product team.</em></p>
+</body>
+</html>
