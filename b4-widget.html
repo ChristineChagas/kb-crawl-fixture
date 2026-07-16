@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Zephyr Atlas 7 — Field Handbook</title>
+</head>
+<body>
+  <!-- ===================================================================
+       TC-B4 fixture (86e2c5c0k): the FIRST main-content block is a SMALL
+       "Get the form" widget. The REAL article is the much larger container
+       below it. Post-fix ("largest container wins"), the extracted body
+       must be the full article, NOT this small widget.
+       Sentinel fact lives DEEP in the article: firmware self-test code
+       ZEPHYR-4417. If KI chat can answer it, the full article was extracted.
+       Links specsheet.pdf (absolute) so the crawl reaches Ready (R-REDACT).
+       ==================================================================== -->
+
+  <section id="get-the-form" style="border:1px solid #ccc;padding:8px;max-width:320px">
+    <h2>Get the form</h2>
+    <p>Download the enrollment form to activate your device warranty.
+       <a href="https://christinechagas.github.io/kb-crawl-fixture/specsheet.pdf">Warranty enrollment (PDF)</a>.</p>
+  </section>
+
+  <article id="handbook">
+    <h1>Zephyr Atlas 7 — Field Handbook</h1>
+
+    <p>The Zephyr Atlas 7 is a ruggedized environmental controller for small
+    commercial sites. This handbook is the canonical operating reference and is
+    maintained by the Zephyr Atlas product team. It covers installation,
+    calibration, diagnostics, and the maintenance schedule. The content below is
+    the full article body and is intentionally longer and richer than the small
+    "Get the form" card above it, so a correct extractor keeps this article.</p>
+
+    <h2>Installation</h2>
+    <p>Mount the controller on a dry interior wall between 1.2 and 1.6 metres
+    from the floor. The unit accepts single-stage and two-stage heating and
+    cooling systems and reports temperature, humidity, and runtime telemetry at
+    five-minute intervals to the Zephyr Atlas dashboard.</p>
+
+    <h2>Calibration</h2>
+    <p>Out of the box the sensor is factory calibrated to plus or minus 0.3
+    degrees Celsius. Recalibrate seasonally using the two-point method described
+    in the specification sheet.</p>
+
+    <h2>Diagnostics</h2>
+    <p>To confirm the unit is healthy, run the built-in self-test from the
+    service menu. The firmware self-test code is <strong>ZEPHYR-4417</strong>;
+    entering it triggers a full sensor, relay, and radio check and prints a pass
+    or fail summary. A passing self-test ends with the token READY-OK.</p>
+
+    <h2>Maintenance schedule</h2>
+    <p>Replace the particulate filter every 90 days and the backup coin cell
+    every 24 months. The manufacturer warranty is 36 months from the date of
+    purchase and does not cover damage from improper installation or power
+    surges.</p>
+
+    <h2>Further reading</h2>
+    <p>Full electrical and environmental ratings live in the downloadable
+    <a href="https://christinechagas.github.io/kb-crawl-fixture/specsheet.pdf">Zephyr Atlas 7 specification sheet (PDF)</a>.</p>
+
+    <p><em>Document ID: ZEPHYR-ATLAS-7-HANDBOOK.</em></p>
+  </article>
+</body>
+</html>
